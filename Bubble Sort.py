@@ -1,14 +1,18 @@
-def bubble_sort(arr):
-    n = len(arr)
-    ittrations = 0
-    for i in range(n):
-        for j in range(0,n-i-1):
-            ittrations+=1
-            if arr[j] > arr[j+1]:
-                arr[j], arr[j+1] = arr[j+1], arr[j]
-    return ittrations 
+# def bubble_sort(arr):
+#     n = len(arr)
+#     ittrations = 0
+#     for i in range(n):
+#         for j in range(0,n-i-1):
+#             ittrations+=1
+
+#             if arr[j] > arr[j+1]:
+#                 arr[j], arr[j+1] = arr[j+1], arr[j]
+#     return ittrations 
 
 
-arr = [5,5,5,5,3]
-bubble_sort(arr)
+# arr = [5,5,5,5,3]
+# bubble_sort(arr)
+
+
+
 
