@@ -3,6 +3,8 @@
 
 arr = []
 g = 0
+
+
 inc = 1
 n = int(input("Number of elements in array: "))
 for i in range(n):
