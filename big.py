@@ -6,8 +6,9 @@ g = 0
 
 
 inc = 1
-n = int(input("Number of elements in array: "))
+n = int(input("Num ber of elements in array: "))
 for i in range(n):
+  
   element = int(input(f"List the array of number{g}: "))
   g+= inc
   arr.append(element)
